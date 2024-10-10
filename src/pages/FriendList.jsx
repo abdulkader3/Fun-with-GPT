@@ -100,7 +100,7 @@ const FriendList = () => {
                   alt="profile"
                   className="md:w-14 w-[30px] h-[30px] md:h-14 rounded-full object-cover border-2 border-purple-500 shadow-sm"
                 />
-                <span className="md:ml-5 ml-2 text-wrap text-gray-800 font-semibold text-[12px] md:text-lg">
+                <span className="md:ml-5 ml-2 text-wrap text-gray-800 font-semiboldtext-[12px] md:text-lg">
                   {SobData?.userName}
                 </span>
               </div>
