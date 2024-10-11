@@ -28,6 +28,8 @@ const FriendRequast = () => {
     });
   }, [db, sliseCurrentuser.uid]);
 
+
+
   // Function to delete a request
   const deletebutton = (deletedata) => {
     // Remove the request from the friend request list
@@ -48,6 +50,9 @@ const FriendRequast = () => {
       transition: Bounce,
     });
   };
+
+
+  
 
   // Function to confirm a request
   const handelConfirmButton = (confirmData) => {
